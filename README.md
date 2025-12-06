@@ -12,5 +12,5 @@ Site Requirements:
  - Passes validation on the W3C validator page, which can be found at: http://validator.w3.org/
 
 Thank you to:
- - IdeaSpot (https://www.youtube.com/watch?v=e5AwNU3Y2es) for the tutorial on finding HTML templates and creating a (not free) custom domain name as face for this git hub repo hosting my website documnts.
- - HTML5up (https://html5up.net/) for providing the free HTML template.
+ - IdeaSpot (https://www.youtube.com/watch?v=e5AwNU3Y2es) for the tutorial on finding HTML templates, having Github host my website files, and (althought I opted out of this part...) creating a (not free) personalized custom domain name for my website.
+ - LearnCode.academy You Tube Playlist: Web Development Tutorials for Beginners (https://www.youtube.com/playlist?list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc) which includes the multi-page web design per my class requirements. 
