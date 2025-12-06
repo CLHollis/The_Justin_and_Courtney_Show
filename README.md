@@ -3,6 +3,14 @@ This is a website I built in Dec. 2025 for my Comp Sci 101 class. It is multi-pa
 
 My site is live at https://clhollis.github.io/Courtney_and_Justin_Show/
 
+Site Requirements:
+ - A minimum of three pages
+ - At least one image on the site
+ - One unordered list
+ - At least two external (off-site) links
+ - Internal links to your other pages from your main page
+ - Passes validation on the W3C validator page, which can be found at: http://validator.w3.org/
+
 Thank you to:
  - IdeaSpot (https://www.youtube.com/watch?v=e5AwNU3Y2es) for the tutorial on finding HTML templates and creating a (not free) custom domain name as face for this git hub repo hosting my website documnts.
  - HTML5up (https://html5up.net/) for providing the free HTML template.
