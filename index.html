@@ -8,37 +8,93 @@
     
     <!--CSS Styling syntax: selector {property: value; property: value; etc...}     Example: h1 { color: red }
         If you put the css file here, it will work anywhere on the page
-        You can target certain areas too, like "h1" -->
-    <style>     
-        body { 
-            background:rgb(249, 214, 233); 
-            font-family: Arial, Helvetica, sans-serif 
-        }
-        h1 { 
-            color: rgb(251, 251, 251); 
-            background:rgb(2, 94, 20) 
-        }
-        h2 { 
-            color: rgb(3, 110, 80); 
-            opacity: 0.7 
-        }
-        button {
-            color:aquamarine; 
-            background:rgb(2, 94, 20); 
-            border:lab(from color l a b); 
-            border-radius: 5px;
-        }
-    </style>
+        You can target certain areas too, like "h1" 
+        -->
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
-<body>
-    <h1>The Justin and Courtney Show</h1> 
-    <h2>Polar Opposites = A GOOD TIME!</h2>
-    <p>We believe in karma, the universe, and self-empowerment. </p>
-    <button>Hairballs!</button> 
-    <button>Vacas!</button>
-    <button>Holidayz!</button>
+<body>  <!--Block sections: called "div" tags. your can do <div><div> parts like this 
+            (but that just stacks sections vertically across the whole page).
+            If you want left, right, header, etc. sections, you can use these syntax words: 
+            <header></header> or <nav></nav> or <section></section> or <footer></footer>.
+        -->
+
+<!--NAVIGATION-->  <!--to look up a folder level, use: ../    -->
+    <header class="NAVIGATION">
+        <nav>
+            <ul class="Top_Nav_List">
+                <li class="Top_Nav_List_Items"><a href="index.html">Home</a></li>
+                <li class="Top_Nav_List_Items">Other Cool stuff &rarr; </li>
+                <li class="Top_Nav_List_Items"><a href="hairballs.html"># Hairballs #</a></li>
+                <li class="Top_Nav_List_Items"><a href="vacas.html">~ Vacas ~</a></li>
+                <li class="Top_Nav_List_Items"><a href="holidayz.html">* Holidayz *</a></li>
+                <li class="Top_Nav_List_Items"><a href="theForest.html">! The Forest !</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!--TITLE-->
+    <section class="section_TITLE">
+        <h1>The Justin and Courtney Show</h1>  
+        <p class="para_Sub-title">
+            <i>Where opposites attract ...morals are shared... </i> <strong>and TOO MUCH FUN is had!</strong> 
+        </p>
+    </section>
+    <section class="section_TITLE_Morals">
+        <p> <img src="/images/ying_yang.jpg" alt="Ying Yang" style="width:20px;height:20px;">
+                Karma keeps us calm. 
+            <img src="/images/ohm.jpg" alt="Ohm" style="width:20px;height:20px;">
+                The universe is alive and well.  
+            <img src="/images/wrench_hammer.jpg" alt="Wrench and Hammer" style="width:20px;height:20px;">
+                And God helps those who help themselves.
+        </p>
+    <img src="/images/20250927_175443.jpg"  
+        alt="80's Babies!" 
+        title="80's Babies!"
+        width="25%" height="25%" >
+    </section>
+
+<!--INTROS-->
+
+    <section class="section_INTROS">
+        <div>Justin</div>
+        <div>Courtney</div>
+        <div>Shanti</div>
+        <div>Kala</div>
+        <div>Stella</div>
+        <div>Bagheera</div>
+        <div>Mowgli</div>
+    </section>
+
+
+
+<!--CREDITS-->
+        <h4 class="CREDITS">Big thanks to:</h4>
+        <ul>
+            <li>My Family for alll their support and encouragement, always.
+            </li>
+            <li>Vertex Pharmacuticals and anyone who has ever donated to The Cystic Fibrosis Foundation. 
+                These efforts has developed a cure the stopped the progression of my diease, brought me back to life,
+                and given me the chance to live a full life (all overagain!!)
+            </li>
+            <li>LearnCode.academy for teaching me how to build my first website. 
+                Here is their Professional Web Development Tutorial playlist: 
+                <a href="https://www.youtube.com/playlist?list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc"> click here </a>
+            </li>
+        </ul>
+
+<!--FOOTER-->
+    <footer>
+        In case you didn't notice the Navigation: 
+        <button><a href="hairballs.html"># Hairballs #</a></button> 
+        <button><a href="vacas.html">~ Vacas ~</a></button>
+        <button><a href="holidayz.html">* Holidayz *</a></button>
+        <button><a href="theForest.html">! The Forest !</a></button>
+        <button><a href="index.html">Home</a></button>
+    </footer>
+        
 </body>
 
 </html>
+
