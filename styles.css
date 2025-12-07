@@ -1,0 +1,72 @@
+/* HOME page */
+    body { 
+        background:rgb(249, 214, 233); 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .NAVIGATION{
+        background:rgb(56, 56, 56);
+        color:rgb(255, 255, 255);
+    }
+    .Top_Nav_List{
+        list-style-type: none;
+    }
+    .Top_Nav_List_Items{
+        display: inline-block;
+        list-style-type: none;
+        margin: 10px
+    }
+
+    .section_TITLE { 
+        color: rgb(251, 251, 251); 
+        background:rgb(2, 94, 20);
+        padding: 2px; 
+    }
+    .para_Sub-title { 
+        color: aquamarine; 
+        font-size: 20px; 
+    }
+    .section_TITLE_Morals{
+        text-align: center;
+    }
+    .section_INTROS{ 
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    div{
+        background:white;
+        margin: auto;
+        width: 100px;
+    }
+    footer{
+        background:rgb(56, 56, 56);
+        color:rgb(255, 255, 255);
+        padding: 10px;
+    }
+    .CREDITS{
+        -webkit-text-stroke: 0.5px aquamarine}
+    button {
+        color:aquamarine; 
+        background:rgb(2, 94, 20); 
+        border:lab(from color l a b); 
+        border-radius: 5px;
+    }
+    a:link{
+        color:aquamarine; 
+    }
+    a:visited{
+        color:aquamarine; 
+    }
+
+/* Sub-Page Content */
+    .section_sub_page_Table_Of_Contents{
+        color: white;
+        background:rgb(56, 56, 56);
+        padding: 2px;
+    }
+    /*  
+    .section_sub_page_body{
+
+    }
+    */

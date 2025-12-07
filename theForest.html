@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page!</title> <!--What the browser's tab will say-->
+    
+    <!--CSS Styling syntax: selector {property: value; property: value; etc...}     Example: h1 { color: red }
+        If you put the css file here, it will work anywhere on the page
+        You can target certain areas too, like "h1" 
+        -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>  <!--Block sections: called "div" tags. your can do <div><div> parts like this 
+            (but that just stacks sections vertically across the whole page).
+            If you want left, right, header, etc. sections, you can use these syntax words: 
+            <header></header> or <nav></nav> or <section></section> or <footer></footer>.
+        -->
+
+<!--NAVIGATION-->  <!--to look up a folder level, use: ../    -->
+    <header class="NAVIGATION">
+        <nav>
+            <ul class="Top_Nav_List">
+                <li class="Top_Nav_List_Items"><a href="index.html">Home</a></li>
+                <li class="Top_Nav_List_Items">Other Cool stuff &rarr; </li>
+                <li class="Top_Nav_List_Items"><a href="hairballs.html"># Hairballs #</a></li>
+                <li class="Top_Nav_List_Items"><a href="vacas.html">~ Vacas ~</a></li>
+                <li class="Top_Nav_List_Items"><a href="holidayz.html">* Holidayz *</a></li>
+                <li class="Top_Nav_List_Items"><a href="theForest.html">! The Forest !</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!--TITLE-->
+    <section class="section_TITLE">
+        <h1>The Justin and Courtney Show</h1>  
+        <p class="para_Sub-title"> 
+            <strong> &rarr; The Forest <i>(our Family Tree)</i> </strong>  
+        </p>
+    </section>
+    <section class="section_TITLE_Morals">
+        <p> <img src="/images/ying_yang.jpg" alt="Ying Yang" style="width:20px;height:20px;">
+                Karma keeps us calm. 
+            <img src="/images/ohm.jpg" alt="Ohm" style="width:20px;height:20px;">
+                The universe is alive and well.  
+            <img src="/images/wrench_hammer.jpg" alt="Wrench and Hammer" style="width:20px;height:20px;">
+                And God helps those who help themselves.
+        </p>
+    </section>
+
+<!--Sub-Page Contents-->
+    <section class="section_sub_page_Table_Of_Contents" ><a href="#top"></a>
+        <p><strong>Contents</strong></p>
+        <ol>
+            <li><a href="#CourtneyHist">My Family History</a></li>
+            <li><a href="#JustinHist">Justin's Family History</a></li>
+        </ol>
+
+    </section>
+    
+    <section class="section_sub_page_body">
+
+        <h2 id="CourtneyHist"> My Family History </h2>
+            <p>
+                The history of my family is not fancy. Here are some of my favorite images:  
+            </p>
+            <!--CourtneyHist pics-->
+            <img src="/images/FamTree_Court/Court & Dad.jpg" 
+                alt="Me and my Dad ~1988" 
+                title="Me and my Dad ~1988"
+                width="20%" height="20%"  >
+            <img src="/images/FamTree_Court/Yvonne & Larry Stapfer, Aug. 1944.jpg" 
+                alt="My paternal grandmother and her little brother (one of 11) playing ~ 1944" 
+                title="My paternal grandmother and her little brother (one of 11) playing ~ 1944"
+                width="20%" height="20%"  >
+            <br>
+            <img src="/images/FamTree_Court/Henry Hohlenkamp Civil War 6th Regiment Oct.6, 1864.jpg" 
+                alt="My paternal Great-Great-Great Grandfather's Civil War enlistment ~1864" 
+                title="My paternal Great-Great-Great Grandfather's Civil War enlistment ~1864"
+                width="20%" height="20%"  >
+            <img src="/images/FamTree_Court/Henry Hohlenkamp, @1895.jpg" 
+                alt="My paternal Great-Great-Great Grandfather ~1995" 
+                title="My paternal Great-Great-Great Grandfather ~1995"
+                width="20%" height="20%"  >
+            <br>
+            <button><a href="#top"> <i>back to Top</i></a></button>
+
+
+        <h2 id="JustinHist"> Justin's Family History</a></h2>
+            <p>
+                Justin's mom can fill this in when she visits us in a few days! &#128519; 
+            </p>
+            <!--CourtneyHist pics-->
+            <p><i>Pics coming soon!</i></p>
+            <br>
+            <button><a href="#top"> <i>back to Top</i></a></button>
+
+
+            
+    </section>
+
+<!--FOOTER-->
+    <footer>
+        In case you didn't notice the Navigation: 
+        <button><a href="hairballs.html"># Hairballs #</a></button> 
+        <button><a href="vacas.html">~ Vacas ~</a></button>
+        <button><a href="holidayz.html">* Holidayz *</a></button>
+        <button><a href="theForest.html">! The Forest !</a></button>
+        <button><a href="index.html">Home</a></button>
+    </footer>
+        
+</body>
+
+</html>
